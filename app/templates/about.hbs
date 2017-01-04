@@ -9,4 +9,7 @@
   {{#link-to 'contact' class="button"}}
     Get Started!
   {{/link-to}}
+  {{ivy-videojs-player playing="playing" ready="ready" src="http://vjs.zencdn.net/v/oceans.mp4"}}
+  <button {{action "mypause"}}>pause</button>
+  <button {{action "myplay"}}>play</button>
 </div>
